@@ -21,7 +21,7 @@ nfcp
 
 ## test of molecular generation for specific-target
 ```bash
-python test_infer_molecular_formula_mul_pr_rerank.py \
+python test_infer_molecular_formula_mul_pr_rerank_copy_aidd_zinc1.py \
 --val_folder = "exp/test"
 --weights_path = "weight_smiles_decoder/PKI_100epoch_BTK_200epoch/epoch_199_loss_0.024621.pth"
 --use_dict = {"fragment": True, "molecular_weight": True, "SMILES": True,
